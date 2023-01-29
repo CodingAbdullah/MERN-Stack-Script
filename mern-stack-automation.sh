@@ -62,7 +62,7 @@ touch server.js .gitignore .env
 
 echo '# Adding in the environment variables config file to prevent from mistakenly being commit' >> .gitignore
 echo '.env' >> .gitignore
-echo 'node_modules' >> gitignore
+echo 'node_modules' >> .gitignore
 
 echo 'const express = require("express);' >> server.js
 echo 'const app = require("express");' >> server.js
